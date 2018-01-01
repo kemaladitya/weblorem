@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body class="bg-secondary" >
+
+    <!-- navbar -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+        <div class="container">
+      <a class="navbar-brand " href="#" > <img src="images/loremlogo.png" width="140px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div> -->
+</nav>
+</div>
+<!-- selection -->
+
+<div  class="jumbotron container-fluid text-center" >
+    <h1 class="display-1 text-warning p-t10"><img src="images/lorem.png" width="450px"></h1>
+    <p class="lead text-primary">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."</p>
+
+<!-- modal -->
+<div class="modal-body">
+
+      <!--trigger  -->
+    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Login</button>
+
+
+    <!-- modalnya -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header ">
+            <h5 class="modal-title" id="exampleModalLabel">LOGIN DULU</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- formNYA -->
+            <form name="login" >
+
+                <div class="input-group input-group-sm">
+                  <span class="input-group-addon" id="sizing-addon1">@</span>
+                  <input type="text" class="form-control" name="username" placeholder="Username"  aria-describedby="sizing-addon1">
+                </div>       
+                <br>
+                <div class="input-group input-group-sm">
+                  
+                  <input type="password" class="form-control" name="password" placeholder="Password"  aria-describedby="sizing-addon1">
+                </div>
+                <br>
+                <hr>
+                <a href="index.html"><button type="submit" class="btn btn-danger btn-sm" >Cancel</button></a>&nbsp; &nbsp;&nbsp; &nbsp;
+                <button type="submit" class="btn btn-primary" data-dismiss="modal" onclick="namaPassword(form.username.value, form.password.value)">Log in</button>
+                <!-- <button type="submit" class="btn btn-primary btn-lg" value="login" id="login" onClick="Login()">Login</button> -->
+            </form>
+
+           
+          </div>
+         
+        </div>
+      </div>
+    </div>
+</div>
+    <hr>
+  
+ 
+</div>
+<!-- supported by -->
+<div class="container">
+        <center><h6 class="lead">Supported By</h6></center>
+        <p> <center>
+            <a href="https://www.codewars.com/"><img src="images/codewars.png" width="200px"></a> &nbsp; &nbsp;
+            <a href="https://makersinstitute.id/"><img src="images/logo-makers.png" width="200px"> </a>   &nbsp; &nbsp;
+            <a href="https://www.gitbook.com/"><img src="images/gitbook.png" width="200px"> </a>
+        </p>
+        <p>
+            <a href="https://github.com/"><img src="images/github.png" width="170px"> </a>&nbsp; &nbsp;
+            <a href="https://www.codecademy.com/"><img src="images/code-academy.png" width="170px"> </a>
+        </p>
+
+            </center>
+
+</div>
+
+
+
+    
+
+
+
+
+    <script src="jquery-3.2.1.js"></script>
+
+    <!-- javalogin -->
+    <script type="text/javascript" src="login.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

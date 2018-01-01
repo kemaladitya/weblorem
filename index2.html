@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hi Kemal..</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Bitter" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styleboot.css">
+   
+  </head>
+  
+  <body class="bg-secondary" data-spy="scroll" data-target="#navbar-example2" data-offset="100" id="home">
+
+    <!-- navbar -->
+    
+    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container" >
+      <a class="navbar-brand " href="#" > <img src="images/loremlogo.png" width="130px" ></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">AboutUs</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#mood">Mood</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#partner">Partner</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#galeri">Gallery </a>
+      </li>
+    </ul>
+    <a href="index.html">            
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Logout</button>
+    </a>
+  </div>
+</nav>
+</div>
+</nav>
+<!-- selection -->
+<div  class="jumbotron container-fluid text-center" id="loremlogo"><br>
+    <h1 class="display-1  p-t10"> <img src="images/lorem.png" width="400px"></h1> <br><br>
+    <p class="lead text-primary container">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+ <hr class="container">
+</div>
+
+<!-- video/about Us -->
+<!-- <div class="container " id="about" > <h1 class="display-3 text-white "><center>About Us</center></h1> <br>
+  <div class="d-flex flex-row">
+    <div class="w-50 p-3 col-sm" style="background-color: #eee;">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video  controls src="videos/lorem.mp4" type="video/mp4"></video>
+      </div>
+
+    </div>
+    <div class="w-50 p-5 col-sm " style="background-color: #eee;">
+
+        <h4 id="judul-vid">The standard Lorem Ipsum passage, used since the 1500s</h4>
+       <div id="paragraf-vid"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      </div>
+
+  </div>
+  </div>
+  <br>
+</div> -->
+<div class="container p-2" id="about" >
+  <center>
+     <h1 class="display-3 text-white "><center>About Us</center></h1> <br>
+
+  <div class="row p-3" style="background-color: #eee;">
+    <div class="col-sm ">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video  controls src="videos/lorem.mp4" type="video/mp4"></video>
+      </div>
+      
+    </div>
+    
+    <div class="col-sm p-5 " >
+       <h4 id="judul-vid">The standard Lorem Ipsum passage, used since the 1500s</h4>
+       <div id="paragraf-vid"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </div>
+    </center>
+  </div>
+</div>
+<br>
+<!-- cards -->
+<div id="mood" class="container-fluid p-4 bg-white">
+                             <h1 class="display-3 text-dark "><center>Mood</center></h1> <br><center>
+                             <h5 class="lead text-dark ">
+                              <center>
+                    "The trick is to be greatful when your mood is high and graceful when it is low." 
+                    <br><i>-Richard Carison</i>
+                              </center></h5> <br><center>
+    <div class="card-deck bg-white">
+      <div class="card ">
+        <img class="card-img-top" src="images/monkey.png" alt="Card image cap">
+        <div class="card-body">
+            <center>
+            <h4 class="card-title">Monkey</h4>
+            <p class="card-text">
+              <audio id="player" src="audio/monyet.mp3"></audio>
+              <div>
+                  <button class="btn btn-danger btn-lg" onclick="document.getElementById('player').play()">Play</button>
+              </div>
+            </center>           
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+       <div class="card ">
+          <img class="card-img-top " src="images/zombie.png " alt="Card image cap">
+          <div class="card-body">
+              <center>
+              <h4 class="card-title">Zombie</h4>
+              <p class="card-text">
+                <audio id="zom" src="audio/Zombie.mp3"></audio>
+                <div>
+                    <button class="btn btn-danger btn-lg" onclick="document.getElementById('zom').play()">Play</button>
+                </div>
+              </center>           
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card ">
+        <img class="card-img-top " src="images/horse.jpg " alt="Card image cap">
+        <div class="card-body">
+            <center>
+            <h4 class="card-title">Kuda</h4>
+            <p class="card-text">
+              <audio id="horse" src="audio/horse.mp3"></audio>
+              <div>
+                  <button class="btn btn-danger btn-lg" onclick="document.getElementById('horse').play()">Play</button>
+              </div>
+            </center>           
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card ">
+        <img class="card-img-top " src="images/pms.png " alt="Card image cap">
+        <div class="card-body">
+            <center>
+            <h4 class="card-title">Cewek</h4>
+            <p class="card-text">
+              <audio id="pms" src="audio/pms.mp3"></audio>
+              <div>
+                  <button class="btn btn-danger btn-lg" onclick="document.getElementById('pms').play()">Play</button>
+              </div>
+            </center>           
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+
+
+<!-- partners -->
+<br>
+<div class="container p-3" id="partner">
+        <h1 class="display-3 text-white "><center>Partners</center></h1> <br><center>
+                             <h5 class="lead text-white "><center>
+                    Lorem Ipsum bekerja sama dengan perusahaan dan startup digital sebagai partner. Kami mengadakan sesi hiring day rutin bagi lulusan Lorem institute untuk membangun karir sebagai software developer.
+                              </center></h5> <br><center>
+                              <hr>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm p-2">
+              <a href="https://www.codecademy.com/"><img src="images/code-academy.png" width="270px"> </a>
+            </div>
+            <div class="col-sm p-2">
+              <a href="https://github.com/"><img src="images/github.png" width="270px"> </a>
+            </div>
+            <div class="col-sm p-2">
+              <a href="https://www.gitbook.com/"><img src="images/gitbook.png" width="300px"> </a>
+            </div>
+          </div>
+        </div><br>
+        
+         <div class="container ">
+          <div class="row">
+            <div class="col-sm p-2">
+              <a href="https://makersinstitute.id/"><img src="images/logo-makers.png" width="330px"> </a>
+            </div>
+            <div class="col-sm p-2">
+              <a href="https://www.codewars.com/"><img src="images/codewars.png" width="300px"></a>
+            </div>
+          </div>
+        </div>
+
+
+                
+                <hr>
+</div>
+<br><br>
+
+
+<!-- gallleri -->
+<h1 class="display-3 text-light bg-dark p-3 " id="galeri"><center>Gallery</center></h1> 
+<div class="container-fluid ">
+  <div class="row p-1">
+    <div class="col-sm ">
+      <img class="card-img-top " src="images/1.jpg" alt="Card image cap" data-toggle="modal" data-target="#1">
+               <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="1"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/1.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img  class="card-img-top " src="images/2.jpg " alt="Card image cap" data-toggle="modal" data-target="#2">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="2"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/2.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img class="card-img-top " src="images/3.jpg " alt="Card image cap" data-toggle="modal" data-target="#3">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="3"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/3.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img class="card-img-top " src="images/4.jpg " alt="Card image cap" data-toggle="modal" data-target="#4">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="4"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/4.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img class="card-img-top " src="images/5.jpg " alt="Card image cap" data-toggle="modal" data-target="#5">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="5"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/5.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img class="card-img-top " src="images/6.jpg " alt="Card image cap" data-toggle="modal" data-target="#6">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="6"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/6.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+  </div>
+
+<div class="row  p-1">
+    <div class="col-sm">
+      <img class="card-img-top " src="images/7.jpg " alt="Card image cap" data-toggle="modal" data-target="#7">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="7"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/7.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img class="card-img-top " src="images/8.jpg " alt="Card image cap" data-toggle="modal" data-target="#8">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="8"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/8.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img class="card-img-top " src="images/9.jpg " alt="Card image cap" data-toggle="modal" data-target="#9">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="9"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/9.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img class="card-img-top " src="images/10.jpg " alt="Card image cap" data-toggle="modal" data-target="#10">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="10"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/10.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img class="card-img-top " src="images/11.jpg " alt="Card image cap" data-toggle="modal" data-target="#11">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="11"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/11.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    <div class="col-sm">
+      <img class="card-img-top " src="images/12.jpg " alt="Card image cap" data-toggle="modal" data-target="#12">
+      <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="12"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <img src="images/12.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- footer -->
+
+<br>
+
+<div class="container-fluid  bg-dark ">
+  <!-- <div class="row">
+    <div class="bg-danger">
+      1 of 1 
+    </div> -->
+    <div class="container p-3">
+          <!-- icon contact -->
+        <center>
+            <div id="sosicon">
+                <span><a href="https://id-id.facebook.com/adityasykesable"><img src="icon/facebook.png"></a></span>
+                <span><a href="https://www.google.co.id/maps"><img src="icon/line.png"></a></span>
+                <span><a href="https://www.youtube.com/user/adityasykesable"><img src="icon/youtube.png"></a></span>
+                <span><a href="https://t.me/adityakemal"><img src="icon/telegram.png"></a></span>
+                <span><a href="https://www.instagram.com/zulfikarkemal/"><img src="icon/instagram.png"></a></span>
+               
+            </div>
+               
+            <hr>
+          <div class=" " id="icon">
+                        
+            <a href="mailto:adityasykes@gmail.com"><img src="icon/mail.png"> adityasykes@gmail.com</a>&nbsp; &nbsp;
+            <a href="tel:081296760145"><img src="icon/tele.png"> 0812-9676-0145</a> &nbsp; &nbsp;
+            <a href="https://www.google.co.id/maps"><img src="icon/map.png"> Jl. Kyai Gede Utama No.11</a>
+            
+          </div>
+          
+          <hr>
+            <span class="text-info">&copy; Copyright 2017 All Right Reserved By Kemal Aditya</span>
+      </center>
+    </div>
+         
+</div>
+
+
+   <!--  <div class=" bg-danger">
+      3 of 3
+    </div> -->
+</div>
+
+  
+     <script src="jquery-3.2.1.js"></script>
+    <!-- javalogin -->
+    <script type="text/javascript" src="login.js"></script>
+    <!-- galeryjquery -->
+    <!-- <script type="text/javascript" src="gallery.js"></script> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
